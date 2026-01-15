@@ -21,4 +21,3 @@ def extract_text(file_path):
         raise ValueError("Unsupported file format")
 
 from extractor import extract_text
-print(extract_text("sample_data/resume.pdf"))
