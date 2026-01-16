@@ -21,6 +21,3 @@ def preprocess_text(text):
         if word not in stop_words and len(word) > 2
     ]
     return " ".join(tokens)
-
-from preprocess import preprocess_text
-print(preprocess_text("Developed REST APIs using Python and Flask"))
